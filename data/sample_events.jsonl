@@ -1,0 +1,5 @@
+{"timestamp":"2026-01-10T08:14:21-06:00","event_type":"auth","source":"windows_security","host":"WS-07","user":"jdoe","details":"4625 failed login","ip":"203.0.113.55","count_5min":18}
+{"timestamp":"2026-01-10T08:16:02-06:00","event_type":"auth","source":"windows_security","host":"WS-07","user":"Administrator","details":"4625 failed login","ip":"203.0.113.55","count_5min":6}
+{"timestamp":"2026-01-10T08:17:40-06:00","event_type":"network","source":"firewall","host":"FW-01","user":"-","details":"Blocked inbound RDP attempts","ip":"203.0.113.55","dest":"10.10.20.14:3389","count_5min":32}
+{"timestamp":"2026-01-12T19:05:11-06:00","event_type":"endpoint","source":"windows_sysmon","host":"WS-12","user":"asmith","details":"Suspicious PowerShell execution","process":"powershell.exe","command":"powershell -enc <redacted>","parent":"outlook.exe"}
+{"timestamp":"2026-01-12T19:06:33-06:00","event_type":"endpoint","source":"windows_sysmon","host":"WS-12","user":"asmith","details":"New scheduled task created","task_name":"UpdateCheck","creator":"asmith"}
